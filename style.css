@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+}
+
+.container{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 200px;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6 {
+    width: 55px;
+    height: 55px;
+    background-color: #c9c3c3;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgb(131, 117, 117);
+}
+
+.do1, .do2, .do3, .do4, .dot4, .dot5, .do5, .dot6, .dot7{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.do1{
+    top: 40px;
+    left: 40px;
+}
+
+.do2{
+    left: 5px;
+    top: -5px;
+}
+
+.do3{
+    left: 21px;
+    top: 2px;
+}
+
+.do4{
+    top: -14px;
+    left: 40px;
+}
+
+.dot4{
+    top: -25px;
+    left: 40px;
+}
+
+.dot5{
+    left: 5px;
+}
+
+.do5{
+    left: 5px;
+    top: 10px;
+}
+
+.dot6{
+    top: -17px;
+    left: 5px;
+}
+
+.dot7{
+    top: -27px;
+    left: 40px;
+}
